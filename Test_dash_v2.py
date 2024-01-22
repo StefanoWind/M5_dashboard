@@ -56,4 +56,4 @@ def update_graph_sc(sc_var1,sc_var2):
     return fig
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.save_html("index.html")
